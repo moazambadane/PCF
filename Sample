@@ -1,0 +1,6 @@
+  public ContactAccessRights MapContactAccessRights(EntityCollection AccessRights)
+  {
+      GeorgiaPacific.PCDC.Models.Mapping.DynamicsToPortalAccount AccountPortalObj =
+                     new GeorgiaPacific.PCDC.Models.Mapping.DynamicsToPortalAccount();
+      return AccountPortalObj.MapContactAccessRights(AccessRights);
+  }
